@@ -1,5 +1,5 @@
 
-file = open("input.txt", "r")
+file = open("Mini Project - Marks Adding.csv", "r")
 data = file.readlines()
 file.close()
 
@@ -12,7 +12,7 @@ for line in data:
     else:
         roll_marks[roll] = int(marks)
 
-file1 = open("output.txt", "w")
+file1 = open("Mini Project - Marks Adding.csv", "w")
 
 
 for roll, marks in roll_marks.items():
